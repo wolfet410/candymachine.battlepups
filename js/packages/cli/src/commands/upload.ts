@@ -440,6 +440,7 @@ type Manifest = {
     }>;
   };
 };
+
 /**
  * From the Cache object & a list of file paths, return a list of asset keys
  * (filenames without extension nor path) that should be uploaded, sorted numerically in ascending order.
@@ -473,17 +474,23 @@ function getAssetKeysNeedingUpload(
 }
 
 /**
- * From the Cache object & a list of file paths, return a list of asset keys
- * (filenames without extension nor path) that should be uploaded.
- * Assets which should be uploaded either are not present in the Cache object,
- * or do not truthy value for the `link` property.
+ * Returns a Manifest from a path and an assetKey
+ * Replaces image.ext => index.ext
  */
 function getAssetManifest(dirname: string, assetKey: string): Manifest {
-  const manifestPath = path.join(
-    dirname,
-    assetKey.includes('json') ? assetKey : `${assetKey}.json`,
+  const assetIndex = assetKey.includes('.json')
+    ? assetKey.substring(0, assetKey.length - 5)
+    : assetKey;
+  const manifestPath = path.join(dirname, `${assetIndex}.json`);
+  const manifest: Manifest = JSON.parse(
+    fs.readFileSync(manifestPath).toString(),
   );
-  return JSON.parse(fs.readFileSync(manifestPath).toString());
+  manifest.image = manifest.image.replace('image', assetIndex);
+  manifest.properties.files[0].uri = manifest.properties.files[0].uri.replace(
+    'image',
+    assetIndex,
+  );
+  return manifest;
 }
 
 /**

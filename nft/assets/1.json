@@ -1,0 +1,29 @@
+{
+    "name": "Green Box",
+    "symbol": "",
+    "image": "1.png",
+    "attributes": [
+        {
+          "trait_type": "red",
+          "value": "no"
+        },
+        {
+          "trait_type": "green",
+          "value": "yes"
+       }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "1.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "FPxjU78BBpfWtfJPR5TeiJUcCMbjhKJbPt6cHmuZxDga",
+          "share": 100
+        }
+      ]
+    }
+  }
