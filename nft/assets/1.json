@@ -1,17 +1,18 @@
 {
-    "name": "Green Box",
+    "name": "Battle Pups Presale Token",
     "symbol": "",
+    "description": "2 of 2",
     "image": "1.png",
     "attributes": [
         {
-          "trait_type": "red",
-          "value": "no"
-        },
-        {
-          "trait_type": "green",
-          "value": "yes"
-       }
+          "trait_type": "presaleversion",
+          "value": "0.1"
+        }
     ],
+    "collection": {
+      "name": "Battle Pups NFT Pre-sale Test 1",
+      "family": "Battle Pups"
+    },
     "properties": {
       "files": [
         {
@@ -21,7 +22,7 @@
       ],
       "creators": [
         {
-          "address": "FPxjU78BBpfWtfJPR5TeiJUcCMbjhKJbPt6cHmuZxDga",
+          "address": "AGXYNqx1WCJzZ5e2VoqAJpFAGxfJSkymj9XeDLxZRFN5",
           "share": 100
         }
       ]
