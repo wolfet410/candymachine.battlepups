@@ -1,7 +1,6 @@
 node_modules/
 .anchor
 **/*.rs.bk
-build/
 rust/test/nft-candy-machine.js
 dist/
 lib/
@@ -21,17 +20,13 @@ yarn-error.log*
 !js/packages/metaplex/src/utils/globals.css
 js/.eslintcache
 target
-.env
 .vscode
 bin
-config.json
 node_modules
 ./package-lock.json
 hfuzz_target
 hfuzz_workspace
 **/*.so
 **/.DS_Store
-.cache
-js/packages/web/.env
 traits
 traits-configuration.json
