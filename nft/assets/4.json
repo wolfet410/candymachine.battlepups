@@ -1,30 +1,30 @@
 {
-    "name": "Battle Pups Presale Token",
-    "symbol": "",
-    "description": "5 of 10",
-    "image": "4.png",
-    "attributes": [
-        {
-          "trait_type": "presaleversion",
-          "value": "0.2"
-        }
+  "name": "Battle Pups Presale Token",
+  "symbol": "",
+  "description": "5 of 10",
+  "image": "4.png",
+  "attributes": [
+      {
+        "trait_type": "presaleversion",
+        "value": "0.2"
+      }
+  ],
+  "collection": {
+    "name": "Battle Pups NFT Pre-sale Test 2",
+    "family": "Battle Pups"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "4.png",
+        "type": "image/png"
+      }
     ],
-    "collection": {
-      "name": "Battle Pups NFT Pre-sale Test 2",
-      "family": "Battle Pups"
-    },
-    "properties": {
-      "files": [
-        {
-          "uri": "4.png",
-          "type": "image/png"
-        }
-      ],
-      "creators": [
-        {
-          "address": "AGXYNqx1WCJzZ5e2VoqAJpFAGxfJSkymj9XeDLxZRFN5",
-          "share": 100
-        }
-      ]
-    }
+    "creators": [
+      {
+        "address": "7yj9THQAER8mdXXY25p4LmxQPzZgygZ2QeTVmSyoVaNP",
+        "share": 100
+      }
+    ]
   }
+}

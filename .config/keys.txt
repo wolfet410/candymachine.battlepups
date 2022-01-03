@@ -1,0 +1,7 @@
+Wrote new keypair to .config/presale-wallet-v0.2/devnet.json
+==============================================================================
+pubkey: 7yj9THQAER8mdXXY25p4LmxQPzZgygZ2QeTVmSyoVaNP
+==============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+average abandon three slogan embody inquiry release leg marine dog near effort
+==============================================================================
