@@ -5,3 +5,5 @@ pubkey: 7yj9THQAER8mdXXY25p4LmxQPzZgygZ2QeTVmSyoVaNP
 Save this seed phrase and your BIP39 passphrase to recover your new keypair:
 average abandon three slogan embody inquiry release leg marine dog near effort
 ==============================================================================
+
+initialized config for a candy machine with publickey: 8q3yGVxxu1LG6u4X2BGwjQRtE7qyoXJfzxCzaqexzfh2
