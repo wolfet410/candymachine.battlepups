@@ -1,0 +1,8 @@
+==============================================================================
+pubkey: AGXYNqx1WCJzZ5e2VoqAJpFAGxfJSkymj9XeDLxZRFN5
+==============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+peace sound above quality network aunt two disorder cinnamon erode until extra
+==============================================================================
+
+Candy Machine v2 public key: uvdbwbmSxcesmUtxUJMrKC7Lz1zVWJCYbTa79e6rR1f

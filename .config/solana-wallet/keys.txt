@@ -1,0 +1,11 @@
+!! .config/solana directory is ignored via .gitignore !!
+
+Wrote new keypair to .config/solana/devnet.json
+===============================================================================
+pubkey: FPxjU78BBpfWtfJPR5TeiJUcCMbjhKJbPt6cHmuZxDga
+===============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+galaxy ball gather frown cattle frozen opinion install hobby snake demand apart
+===============================================================================
+
+Candy Machine Public Key: 7F6Pyb71XgbyFz7KrcWEbNZFTN4EpuGNEgYZHSZt3rir
