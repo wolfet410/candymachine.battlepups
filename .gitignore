@@ -35,4 +35,3 @@ hfuzz_workspace
 js/packages/web/.env
 traits
 traits-configuration.json
-.config
