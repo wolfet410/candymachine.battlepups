@@ -65,21 +65,21 @@ const Header = (props: {
   const { phaseName, desc, date, status } = props;
   return (
     <Grid container justifyContent="center">
-      <Grid xs={6} justifyContent="center" direction="column">
-        <Typography variant="h5" style={{ fontWeight: 600 }}>
+      <Grid xs={12} justifyContent="center" direction="column">
+        <Typography variant="h6" style={{ fontWeight: 600 }}>
           {phaseName}
         </Typography>
         <Typography variant="body1" color="textSecondary">
           {desc}
         </Typography>
       </Grid>
-      <Grid xs={6} container justifyContent="flex-end">
+      {/* <Grid xs={6} container justifyContent="flex-end">
         <PhaseCountdown
           date={toDate(date)}
           style={{ justifyContent: 'flex-end' }}
           status={status || 'COMPLETE'}
         />
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };
@@ -164,8 +164,8 @@ export const PhaseHeader = ({
 
       {phase === Phase.Phase4 && (
         <Header
-          phaseName={candyMachinePredatesFairLaunch ? 'Phase 3' : 'Phase 4'}
-          desc={'Candy Time 🍬 🍬 🍬'}
+          phaseName={'NFT WHITELIST RESERVATION'}
+          desc={'0.25 SOL - NFT mint dates TBD'}
           date={candyMachine?.state.goLiveDate}
           status="LIVE"
         />

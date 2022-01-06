@@ -70,7 +70,7 @@ export const MintButton = ({
       ) : isMinting ? (
         <CircularProgress />
       ) : (
-        'MINT'
+        'SECURE MY RESERVATION'
       )}
     </CTAButton>
   );

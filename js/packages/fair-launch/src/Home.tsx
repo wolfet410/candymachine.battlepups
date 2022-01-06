@@ -476,7 +476,9 @@ const Home = (props: HomeProps) => {
   );
 
   return (
-    <Container style={{ marginTop: 100 }}>
+    // Todd edits here! Introduce grid directly under the first container!
+    // <Container style={{ marginTop: 100 }}>
+    <Container style={{ marginTop: 10 }}>
       {fairLaunch && (
         <AntiRug
           fairLaunch={fairLaunch}
@@ -485,6 +487,7 @@ const Home = (props: HomeProps) => {
         />
       )}
       <Container maxWidth="xs" style={{ position: 'relative' }}>
+        <img src="toplogo.gif" alt="top logo" />
         <Paper
           style={{ padding: 24, backgroundColor: '#151A1F', borderRadius: 6 }}
         >
@@ -636,7 +639,7 @@ const Home = (props: HomeProps) => {
             {!wallet.connected ? (
               <ConnectButton>
                 Connect{' '}
-                {[Phase.SetPrice].includes(phase) ? 'to bid' : 'to see status'}
+                {[Phase.SetPrice].includes(phase) ? 'to bid' : 'to reserve'}
               </ConnectButton>
             ) : (
               <div>
