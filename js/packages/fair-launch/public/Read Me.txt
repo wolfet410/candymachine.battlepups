@@ -1,0 +1,11 @@
+Each column image is listed below.
+
+Desktop: (3 columns)
+Column 1 - mint image 01, 04, 07
+Column 2 - mint image 02, (05), 08
+(note: image_05 is the black space for your mint box/button. Technically don't need the mint_05 image)
+Column 3 - mint image 03, 06, 09
+
+Mobile: (1 column)
+Column 1  - mint image 01, 02, (05), 06, 09, 04, 07, 08
+(note: image_05 is the black space for your mint box/button. Technically don't need the mint_05 image)
