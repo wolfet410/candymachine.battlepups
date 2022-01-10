@@ -510,7 +510,10 @@ const Home = (props: HomeProps) => {
           </Box>
         </Grid>
         <Grid sm={12} md={4} justifyContent="center" direction="column">
-          <Box style={{ paddingBottom: 30 }}>
+          <Box style={{ paddingTop: 30, paddingBottom: 30 }} sx={{ display: { sm: 'block', md: 'none', lg: 'none', xl: 'none' }}}>
+            <img src="mint_01.png" alt="Official Logo" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
+          </Box>
+          <Box style={{ paddingBottom: 30 }} sx={{ display: { xl: 'block' }}}>
             <img src="mint_02.gif" alt="Battle Pups Logo" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
           </Box>
           <Container maxWidth="xs" style={{ position: 'relative' }}>
@@ -961,7 +964,19 @@ const Home = (props: HomeProps) => {
             </Paper>
           </Container>
 
-          <Box style={{ paddingTop: 30 }}>
+          <Box style={{ paddingTop: 30, paddingBottom: 30 }} sx={{ display: { sm: 'block', md: 'none', lg: 'none', xl: 'none' }}}>
+            <img src="mint_06.png" alt="How To Mint" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
+          </Box>
+          <Box style={{ paddingBottom: 30 }} sx={{ display: { sm: 'block', md: 'none', lg: 'none', xl: 'none' }}}>
+            <img src="mint_09.gif" alt="What Do You Get" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
+          </Box>
+          <Box style={{ paddingBottom: 30 }} sx={{ display: { sm: 'block', md: 'none', lg: 'none', xl: 'none' }}}>
+            <img src="mint_04.gif" alt="Desktop Wallet" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
+          </Box>
+          <Box style={{ paddingBottom: 30 }} sx={{ display: { sm: 'block', md: 'none', lg: 'none', xl: 'none' }}}>
+            <img src="mint_07.gif" alt="Mobile Wallet" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
+          </Box>
+          <Box style={{ paddingTop: 30, paddingBottom: 30 }}>
             <img src="mint_08.gif" alt="NFT Example" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
           </Box>
           
