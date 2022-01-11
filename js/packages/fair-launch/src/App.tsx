@@ -47,8 +47,13 @@ const txTimeout = 30000; // milliseconds (confirm this works for your project)
 const App = () => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
 
+  // const wallets = useMemo(
+  //   () => [getPhantomWallet(), getSolflareWallet(), getSolletWallet()],
+  //   [],
+  // );
+
   const wallets = useMemo(
-    () => [getPhantomWallet(), getSolflareWallet(), getSolletWallet()],
+    () => [getPhantomWallet()],
     [],
   );
 

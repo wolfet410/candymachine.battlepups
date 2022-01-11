@@ -505,7 +505,7 @@ const Home = (props: HomeProps) => {
           <Box style={{ paddingBottom: 30 }} sx={{ display: { xs: 'none', md: 'block' }}}>
             <img src="mint_04.gif" alt="Desktop Wallet" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
           </Box>
-          <Box style={{ paddingBottom: 30 }} sx={{ display: { xs: 'none', md: 'block' }}}>
+          <Box style={{ paddingBottom: 30 }} sx={{ display: { xs: 'none', md: 'none' }}}>
             <img src="mint_07.gif" alt="Mobile Wallet" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
           </Box>
         </Grid>
@@ -973,7 +973,7 @@ const Home = (props: HomeProps) => {
           <Box style={{ paddingBottom: 30 }} sx={{ display: { sm: 'block', md: 'none', lg: 'none', xl: 'none' }}}>
             <img src="mint_04.gif" alt="Desktop Wallet" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
           </Box>
-          <Box style={{ paddingBottom: 30 }} sx={{ display: { sm: 'block', md: 'none', lg: 'none', xl: 'none' }}}>
+          <Box style={{ paddingBottom: 30 }} sx={{ display: { sm: 'none', md: 'none', lg: 'none', xl: 'none' }}}>
             <img src="mint_07.gif" alt="Mobile Wallet" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
           </Box>
           <Box style={{ paddingTop: 30, paddingBottom: 30 }}>
